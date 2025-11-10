@@ -1,0 +1,134 @@
+.privacy-policy {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 2em 1em;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.privacy-content {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 2em;
+  color: #646cff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: #535bf2;
+  text-decoration: underline;
+}
+
+.privacy-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.privacy-content h2 {
+  font-size: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  color: rgba(255, 255, 255, 0.87);
+  font-weight: 600;
+}
+
+.privacy-content h3 {
+  font-size: 1.2em;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+  color: rgba(255, 255, 255, 0.87);
+  font-weight: 600;
+}
+
+.privacy-content p {
+  margin-bottom: 1em;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.privacy-content ul {
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+.privacy-content li {
+  margin-bottom: 0.5em;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.privacy-content a {
+  color: #646cff;
+  text-decoration: inherit;
+  font-weight: 500;
+}
+
+.privacy-content a:hover {
+  color: #535bf2;
+}
+
+.privacy-content section {
+  margin-bottom: 2em;
+}
+
+.privacy-content hr {
+  margin: 3em 0 1em;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.privacy-content .generator-note {
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  margin-top: 2em;
+}
+
+@media (prefers-color-scheme: light) {
+  .privacy-content {
+    color: #213547;
+  }
+
+  .privacy-content h1,
+  .privacy-content h2,
+  .privacy-content h3,
+  .privacy-content p,
+  .privacy-content li {
+    color: #213547;
+  }
+
+  .privacy-content a:hover {
+    color: #747bff;
+  }
+
+  .privacy-content hr {
+    border-top-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .privacy-content .generator-note {
+    color: #888;
+  }
+}
+
+@media (max-width: 768px) {
+  .privacy-policy {
+    padding: 1em;
+  }
+
+  .privacy-content h1 {
+    font-size: 2em;
+  }
+
+  .privacy-content h2 {
+    font-size: 1.3em;
+  }
+
+  .privacy-content h3 {
+    font-size: 1.1em;
+  }
+}
+
