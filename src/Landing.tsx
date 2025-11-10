@@ -22,7 +22,7 @@ function Landing() {
           <div className="screenshot-container">
             <div className="phone-frame">
               <img 
-                src="/app-screenshot.png" 
+                src={`${import.meta.env.BASE_URL}app-screenshot.png`}
                 alt="HinduAI App Screenshot" 
                 className="app-screenshot"
                 onError={(e) => {
